@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Sciter\Desktop\Sunday3\S310_SDK_5_2_0_51422_DEVKIT_26Dec_kuldip\S310_SDK_5_2_0_51422_DEVKIT_26Dec_kuldip\Board\DEVKIT\S310\ble_ant_app\arm\DEVKIT_S310_nRF51422.uvproj
+Project File Date:  12/25/2014
+
+<h2>Output:</h2>
+Build target 'DEVKIT_S310_nRF51422'
+linking...
+Program Size: Code=64720 RO-data=2796 RW-data=752 ZI-data=6124  
+FromELF: creating hex file...
+".\_build\DEVKIT_S310_nRF51422.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Sciter\\Desktop\\Sunday3\\S310_SDK_5_2_0_51422_DEVKIT_26Dec_kuldip\\S310_SDK_5_2_0_51422_DEVKIT_26Dec_kuldip\\Board\\DEVKIT\\S310\\ble_ant_app\\arm\\_build\\DEVKIT_S310_nRF51422.axf" 
+Set JLink Project File to "C:\Users\Sciter\Desktop\Sunday3\S310_SDK_5_2_0_51422_DEVKIT_26Dec_kuldip\S310_SDK_5_2_0_51422_DEVKIT_26Dec_kuldip\Board\DEVKIT\S310\ble_ant_app\arm\JLinkSettings.ini"
+* JLink Info: Device "NRF51422_XXAA" selected (217 KB flash, 14 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.76d, compiled Sep 13 2013 16:35:06
+Firmware: J-Link Lite-Cortex-M V8 compiled Jul 17 2014 11:40:12
+Hardware: V8.00
+S/N : 518002491 
+Feature(s) : GDB 
+ 
+* JLink Info: Found SWD-DP with ID 0x0BB11477
+* JLink Info: Found Cortex-M0 r0p0, Little endian.
+* JLink Info: FPUnit: 4 code (BP) slots and 0 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: nRF51422_xxAA
+VTarget = 3.313V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 4
+Software-Breakpoints: 8192
+Watchpoints:          2
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+6): warning:  #375-D: declaration requires a typedef name
+        E_RELAY_STATUS = 18;
+..\..\..\..\..\Include\AntEventHandler.h(197): error:  #169: expected a declaration
+  }en_Opcode_t;
+..\..\..\..\..\Source\development_kit\AntEventHandler.c: 1 warning, 2 errors
+compiling development_kit_config.c...
+..\..\..\..\..\Include\AntEventHandler.h(196): error:  #67: expected a "}"
+        E_RELAY_STATUS = 18;
+..\..\..\..\..\Include\AntEventHandler.h(196): warning:  #375-D: declaration requires a typedef name
+        E_RELAY_STATUS = 18;
+..\..\..\..\..\Include\AntEventHandler.h(197): error:  #169: expected a declaration
+  }en_Opcode_t;
+..\..\..\..\..\Source\development_kit\development_kit_config.c: 1 warning, 2 errors
+compiling devkit_config.c...
+compiling devkit_application.c...
+compiling devkit_motor.c...
+compiling devkit_command.c...
+..\..\..\..\..\Include\AntEventHandler.h(196): error:  #67: expected a "}"
+        E_RELAY_STATUS = 18;
+..\..\..\..\..\Include\AntEventHandler.h(196): warning:  #375-D: declaration requires a typedef name
+        E_RELAY_STATUS = 18;
+..\..\..\..\..\Include\AntEventHandler.h(197): error:  #169: expected a declaration
+  }en_Opcode_t;
+..\..\..\..\..\Source\devkit\devkit_command.c: 1 warning, 2 errors
+compiling devkit_debug.c...
+..\..\..\..\..\Include\AntEventHandler.h(196): error:  #67: expected a "}"
+        E_RELAY_STATUS = 18;
+..\..\..\..\..\Include\AntEventHandler.h(196): warning:  #375-D: declaration requires a typedef name
+        E_RELAY_STATUS = 18;
+..\..\..\..\..\Include\AntEventHandler.h(197): error:  #169: expected a declaration
+  }en_Opcode_t;
+..\..\..\..\..\Source\devkit\devkit_debug.c: 1 warning, 2 errors
+compiling AntAsyncEvent.c...
+..\..\..\..\..\Include\AntEventHandler.h(196): error:  #67: expected a "}"
+        E_RELAY_STATUS = 18;
+..\..\..\..\..\Include\AntEventHandler.h(196): warning:  #375-D: declaration requires a typedef name
+        E_RELAY_STATUS = 18;
+..\..\..\..\..\Include\AntEventHandler.h(197): error:  #169: expected a declaration
+  }en_Opcode_t;
+..\..\..\..\..\Source\AntAschyncevent\AntAsyncEvent.c: 1 warning, 2 errors
+".\_build\DEVKIT_S310_nRF51422.axf" - 12 Error(s), 6 Warning(s).
+Target not created
